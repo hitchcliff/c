@@ -38,7 +38,7 @@ int sumOddDigits(const std::string cardNumber){
     int sum = 0;
 
     for(int  i = cardNumber.size() - 1; i >=0; i--) {
-        sum += getDigits(cardNumber[i] - '0');
+        sum += (cardNumber[i] - '0');
     }
     
 
